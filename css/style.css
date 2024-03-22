@@ -42,8 +42,17 @@
     justify-content: space-between;
 }
 
+.vertical-align{
+    align-items: center;
+}
+
 .elem{
-    margin:5px;
+    margin:5px 10px;
+}
+
+.elem img{
+    width:90px;
+    vertical-align: middle;
 }
 
 .col{
@@ -96,6 +105,56 @@ footer hr{
 
 }
 
+/*FINE ELEMENT BACKGROUND*/
+
+
+
+
+
+
+.title{
+    color:white;
+    margin-bottom: 60px;
+}
+
+.title h1, .title p{
+    text-align: center;
+}
+
+p{
+    padding:15px 0;
+}
+
+.pulsanti-header{
+    display:flex;
+    justify-content: center;
+}
+
+.pulsanti-header button{
+    margin: 0 5px;
+    padding:6px 16px;
+    border-radius: 15px;
+    border:none;
+}
+
+.accedi{
+    padding:4px 12px;
+    border-radius: 15px;
+}
+
+.open{
+    background-color: black;
+    color:white;
+}
+
+.row ul{
+    list-style-type: none;
+    color:white;
+}
+
+
+
+
 
 /*BACKGROUND COLORS*/
 
@@ -137,4 +196,8 @@ footer hr{
 
 .gray{
     background-color: lightgray;
+}
+
+.white{
+    background-color: white;
 }
