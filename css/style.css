@@ -14,7 +14,7 @@ p{
 }
 
 .container{
-    max-width: 800px;
+    max-width: 900px;
     margin:0 auto;
 }
 
@@ -60,8 +60,7 @@ p{
 }
 
 .col{
-    border:3px dotted black;
-
+    display: flex;
 }
 
 .c-100{
@@ -90,7 +89,6 @@ p{
 
 .c-16{
     width:calc(100%/6);
-    border:3px dotted white !important;
 }
 
 .c-32{
@@ -141,6 +139,15 @@ p{
     border:none;
 }
 
+.green button{
+    margin: 20px 5px;
+    padding:9px 16px;
+    border-radius: 15px;
+    border:none;
+    background-color: #7289da;
+    color:white;
+}
+
 .accedi{
     padding:4px 12px;
     border-radius: 15px;
@@ -148,7 +155,7 @@ p{
 }
 
 .open{
-    background-color: black;
+    background-color: #23272a;
     color:white;
 }
 
@@ -172,7 +179,6 @@ p{
 }
 
 .sky{
-    background-color: skyblue;
     padding: 10px 50px;
 }
 
@@ -182,11 +188,10 @@ p{
 }
 
 .violet{
-    background-color: violet;
 }
 
 .dark-gray{
-    background-color: gray;
+    background-color: #23272a;
 }
 
 .lightblue{
@@ -199,12 +204,19 @@ p{
     padding:0 80px;
 }
 
-.pink h2{
-    font
+.green{
+    display:flex;
+    flex-direction: column;
+    padding:0 90px;
 }
 
-.green{
-    background-color: green;
+.green img{
+    max-width: 100%;
+    height: auto;
+}
+
+.green p{
+    margin: 0 40px;
 }
 
 .turquoise{
@@ -217,4 +229,16 @@ p{
 
 .white{
     background-color: white;
+}
+
+.social{
+    padding: 50px 0;
+}
+
+.dark-gray hr{
+    margin: 15px 0;
+}
+
+.last.container{
+    padding: 0 80px;
 }
