@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p{
+    font-size: 12px;
+}
+
 .background{
     
     padding: 20px;
@@ -15,7 +19,7 @@
 }
 
 .small-width{
-    max-width: 600px !important;
+    max-width: 400px !important;
 }
 
 .row{
@@ -101,7 +105,7 @@ footer hr{
 
 .header-background{
     background-image: url("../img/jumbo.png");
-    background-size:cover ;
+    background-size: cover ;
 
 }
 
@@ -114,7 +118,7 @@ footer hr{
 
 .title{
     color:white;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
 }
 
 .title h1, .title p{
@@ -140,6 +144,7 @@ p{
 .accedi{
     padding:4px 12px;
     border-radius: 15px;
+    border:none;
 }
 
 .open{
@@ -168,6 +173,12 @@ p{
 
 .sky{
     background-color: skyblue;
+    padding: 10px 50px;
+}
+
+.sky img{
+    max-width: 100%;
+    height: auto;
 }
 
 .violet{
@@ -183,7 +194,13 @@ p{
 }
 
 .pink{
-    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    padding:0 80px;
+}
+
+.pink h2{
+    font
 }
 
 .green{
