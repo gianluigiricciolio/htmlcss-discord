@@ -116,16 +116,18 @@ p{
 
 
 
-.lingua > img{
-    height:6px;
-    width:18px;
+.lingua img{
+    padding-top: 2px;;
+    height:16px;
+    width:auto;
+    margin-right:5px;
 
 }
 
 .lingua p{
     display:inline;
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .col.c-16 > h5{
@@ -196,6 +198,14 @@ p{
 
 .green button{
     margin: 20px 5px;
+    padding:9px 16px;
+    border-radius: 15px;
+    border:none;
+    background-color: #7289da;
+    color:white;
+}
+
+.registrati{
     padding:9px 16px;
     border-radius: 15px;
     border:none;
